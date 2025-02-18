@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { book, calendar, list } from "lucide-react";
+import { Book, Calendar, List } from "lucide-react";
 
 const DashboardCard = ({
   title,
@@ -38,17 +38,17 @@ const Dashboard = () => {
         <DashboardCard
           title="Total Words"
           value="150"
-          icon={book}
+          icon={Book}
         />
         <DashboardCard
           title="Word Groups"
           value="12"
-          icon={list}
+          icon={List}
         />
         <DashboardCard
           title="Study Sessions"
           value="45"
-          icon={calendar}
+          icon={Calendar}
         />
       </div>
     </div>
